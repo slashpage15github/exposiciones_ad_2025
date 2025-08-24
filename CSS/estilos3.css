@@ -1,0 +1,35 @@
+.mi-boton {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.mi-boton:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .mi-boton {
+    width: 100%;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  body {
+    padding: 10px;
+    background-color: #e0f7fa;
+  }
+}
